@@ -93,7 +93,8 @@ var PhotoLightboxMixin = {
                             return {
                                 id: photo.id,
                                 name: photo.original_filename,
-                                photo_type: photo.photo_type,
+                                original_filename: photo.original_filename,
+                                photo_type: photo.photo_type || 'other',
                                 url: photo.url,
                                 width: photo.width,
                                 height: photo.height,
