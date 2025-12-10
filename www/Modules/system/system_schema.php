@@ -104,7 +104,8 @@ $schema['system_meta'] = array(
     ),
 
     'installation_Cost' => array(
-        'type' => 'varchar(16)', 
+        'type' => 'int(11)',
+        'unit' => '£',
         'editable' => true, 
         'optional' => true, 
         'name' => 'Installation Cost (excluding grant)', 
